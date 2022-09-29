@@ -1,0 +1,7 @@
+Question: 
+Despite the fact that all shapes are either Rectangle or Circle, you cannot pass
+a Shape[] array as Printable[] to the print method. Why?
+
+Answer:
+The static print method in the Printable interface doesn't have the correct signature to take a Shape[] array, as it takes varargs of type PrintableObject, which both Rectangle and Circle extend. Additionally, Shape is not a class common to Rectangle and Circle, but it is an interface ONLY implemented by Rectangle and Circle. Thus, Shape has no relationship whatsoever with Printable.
+The non-static print method in the Printable interface is never implemented so is unusable.

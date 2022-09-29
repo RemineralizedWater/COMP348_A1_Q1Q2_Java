@@ -1,0 +1,9 @@
+Rectangle,1.2,5
+CircLe,4
+Rectangle,2,4
+RecTanasf3wr4gle,5,5
+Circle,9,2
+rectangfsafle,9.2,2.6,3223
+Circle,0.1
+circle,2.2234234
+23423432
